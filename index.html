@@ -8,7 +8,10 @@
      		href="http://d2brer6wwumtdu.cloudfront.net/wp-content/uploads/2016/01/computer-brain-interface-darpa-s.jpg">
 		<link href='https://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
 		<link href="style.css" rel="stylesheet" type="text/css"/>
-		
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> 
+        <script type="text/javascript" src="script.js"></script>
 	</head>
 	<!--Page content-->
 	<body>
@@ -19,6 +22,7 @@
 				<a href="#product"> The Product </a>
 				<a href="#hiw"> How Does It Work? </a>
 				<a href="#team"> How Was It Tested? </a>
+				<a href="#demo"> Demonstration </a>
 			</nav>
 		</header>
 		<section class="section-one">
@@ -53,6 +57,17 @@
 			<p class="pres"> To create anxiety, so that we could measure stress, we created our very own version of the Stroop Test, a famous test used in Psychology to stimulate stressors. When the name of a color is printed in a color not given by its name for example, the word &#34BLUE&#34 printed in red ink instead of blue ink, naming the color of the word takes longer and causes the individual to become stressed. <br/> <br/> The first half of the test has the word and the color matching, and the second half of the test is like the image on the right. After a section where the color and the name did not match, Soothe coaches the user to focus and relax and regain control over their stressor. </p>
 			<img src="img/Stroop.jpg" class="smphoto"/>
 		</section>
-		<p class = end></p>
+
+
+        <h2><center>Demonstration</center></h2>
+		<section id="demo">
+            
+            <div id="chartContainer"
+                 style="height: 300px; width: 100%; max-width: 500px; margin: auto;">
+            </div>
+
+            <div id="biofeedbackContainer" style="height: 300px; width: 400px; margin: auto;">
+            </div>
+	    </section>
 	</body>
 </html>
