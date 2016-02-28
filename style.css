@@ -51,11 +51,11 @@ a:hover{
 	align-items: center;
 }
 
-#background{
-	padding: 5%;
+.list{
+	margin-right: 25px
 }
 
-#product, #hiw, #team {
+#product, #hiw, #team, #background {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -73,4 +73,5 @@ a:hover{
 
 body{
 	margin: 0;
+	margin-bottom: 100px;
 }
