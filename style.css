@@ -1,0 +1,76 @@
+*{font-family: Karla;}
+
+.helvetica {
+	font-family: Helvetica;
+}
+
+.head{
+	padding: 2%;
+	display: flex;
+	justify-content: space-around;	
+	align-items: center;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	color: purple;
+}
+
+#logo{
+	font-weight: bold;
+	text transform: uppercase;
+
+}
+
+.navigation{
+	display: flex;
+	justify-content: space-around;
+	flex-grow: 1;
+}
+
+.section-one{
+	background-color: aqua;
+	/* padding: top right bottom left; padding: top/bottom right/left; */
+	height: 33vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("img/background.jpg");
+	background-size: cover;
+	color: white;
+}
+
+.title{
+	font-size: 2.5em;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#background{
+	padding: 5%;
+}
+
+#product, #hiw, #team {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.pres{
+	width: 30%;
+}
+
+.smphoto{
+	width: 40%
+}
+
+body{
+	margin: 0;
+}
